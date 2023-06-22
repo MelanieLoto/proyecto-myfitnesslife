@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------------------contacto---------------------*/
+
+.opciones{
+    display: grid;
+    justify-items: center;
+    gap: 0.5rem;
+    border-style: solid;
+}
+
+.terminos-contact{
+display: flex;
+flex-direction: column;
+}
+
+@media (min-width: 375px) {
+
+}
+
+ul,
+li {
+    list-style: none;
+    text-decoration-line: none;
+    padding: 1rem;
+}
+
+/*--------HEADER-------*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMyfitness {
+    font-style: italic;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.inline-nav {
+    display: inline-block;
+}
+
+.inline-section {
+    display: inline-block;
+}
+
+/*----------------------------------------------*/
+
+/*-------------------cuerpoRecetas-----------*/
+.fondo-color {
+    background-color: #F0FFED;
+}
+
+.subtitulo-recetas {
+    font-size: 1.8rem;
+    /*corregir margen bottom*/
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.textoSubtitulo {
+    font-size: 1.2rem;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+.tiposdeMenus {
+    font-size: 1.4rem;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.cajade-cadaReceta {
+    border-style:solid;
+    width: 350px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+.caja-sintacc {
+    margin-left: 40px;
+}
+
+.caja-tacc {
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.boton-vermas {
+    font-style: italic;
+    font-size: 1.4rem;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.imagenComidas {
+    width: 95%;
+
+    /*height: 350px;
+    object-fit: cover*/
+
+    ;
+}
+
+.img-blur {
+    width: 100%;
+}
+
+
+
+
+
+/*----------seccion faqs-------------*/
+
+.faqs {
+    list-style-type: disc;
+    font-size: 1.5rem;
+    padding: 25px;
+    font-style: italic;
+}
+
+.caja-faqs {
+    border-style: none;
+    margin: 100px;
+}
+
+
+.p-faqs {
+    font-size: 1.2rem;
+}
+
+/*--------------formulario-----------*/
+
+/*.formulario {
+    border-style: solid;
+}*/
+
+/*--------------------- footer---------------*/
+
+footer {
+    background-color: green;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+/*-----------------seccion planes----------------*/
+
+.caja-planes {
+    border-style: solid;
+    margin: 40px;
+}
+
+.tipos-planes {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.parrafo-planes {
+    font-size: 1.1rem;
+}
+
+.boton-precio {
+    margin: 35px;
+    padding: 15px 40px 15px 40px;
+}
+
+img{
+    width: 100;
+}
+
+@media (min-width:375px) and (max-width: 420px) {
+
+
+
+}
